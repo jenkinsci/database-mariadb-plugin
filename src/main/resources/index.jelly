@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  Adds MariaDB connectivity to the database plugin
+</div>
