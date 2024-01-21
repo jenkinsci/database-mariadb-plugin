@@ -15,7 +15,7 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
 @WithJenkins
-@Testcontainers
+@Testcontainers(disabledWithoutDocker = true)
 public class MariaDbDatabaseTest {
 
     public static final String TEST_IMAGE = "mariadb:11.2.2";
